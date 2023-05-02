@@ -15,7 +15,7 @@
     
     <title>Confectionery Course Selling Page</title>
   </head>
-  <body>
+  <body class="bg-200">
     <div class="font-base max-w-page mx-auto px-screen-edge bg-200">
       <section>
         <header class="fixed inset-x-0 max-w-page mx-auto top-0 z-50 px-screen-edge bg-200">
@@ -176,23 +176,22 @@
           </div>
         </header>
         <main class="mt-14">
-          <div class="space-y-14 pt-12 sm:pt-16">
-            <div class="space-y-8">
-              <div class="max-w-prose space-y-6 xs:text-center sm:mx-auto">
+          <div class="space-y-14 pt-12 sm:pt-16 lg:pt-0 lg:grid lg:grid-cols-2 2lg:grid-cols-content xl:grid-cols-2content lg:space-y-0">
+            <div class="space-y-8 2lg:col-start-2 2lg:col-end-3 lg:self-center">
+              <div class="max-w-prose space-y-6 xs:text-center sm:mx-auto lg:mx-0 lg:text-start lg:max-w-[28.75rem]">
                 <h1
                  class="font-heading text-4xl text-accent sm:text-5xl"
                 >
-                  Confectionery has always been wound in mistery, not anymore
+                  Confectionery has always been wound in mistery
                 </h1>
                 <p
                   class="text-secondary sm:text-lg"
                 >
                   Sophisticated typography and prominent photo content will
-                  catch the visitors' eyes and share the atmosphere from the
-                  first seconds. Stay tuned to see more!
+                  catch the visitors' eyes.
                 </p>
               </div>
-              <div class="w-max xs:mx-auto">
+              <div class="w-max xs:mx-auto lg:mx-0">
                 <a
                   class="inline-block text-white bg-300 px-6 py-3 sm:text-lg shadow-sm" 
                   href="javascript: void(0)"
@@ -200,13 +199,15 @@
                 >
               </div>
             </div>
-            <img
-              class="w-full h-auto max-w-md mx-auto sm:max-w-lg md:max-w-xl"
-              src="/image.jpg"
-              loading="lazy"
-              decoding="async"
-              alt=""
-            />
+            <div class="lg:w-max lg:justify-self-end 2lg:col-start-3 2lg:col-end-5">
+              <img
+                class="w-full h-auto max-w-md mx-auto sm:max-w-lg md:max-w-xl lg:max-w-md 3lg:max-w-lg 4lg:max-w-xl"
+                src="/image.jpg"
+                alt=""
+                loading="lazy"
+                decoding="async"                                                                     
+              />
+            </div>
           </div>
         </main>
       </section>
