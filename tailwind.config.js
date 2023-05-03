@@ -22,7 +22,7 @@ export default {
         page: "1280px",
       },
       margin: {
-        "screen-edge": '2rem',
+        "screen-edge": "2rem",
       },
       padding: {
         "screen-edge": "2rem",
