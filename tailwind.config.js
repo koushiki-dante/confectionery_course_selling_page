@@ -21,6 +21,9 @@ export default {
       maxWidth: {
         page: "1280px",
       },
+      margin: {
+        "screen-edge": '2rem',
+      },
       padding: {
         "screen-edge": "2rem",
       },
