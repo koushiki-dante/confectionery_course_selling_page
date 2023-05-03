@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   
+
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link href="./src/style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,15 +12,17 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap"
       rel="stylesheet"
     />
-    
+
     <title>Confectionery Course Selling Page</title>
   </head>
   <body class="bg-200">
-    <div class="font-base max-w-page mx-auto px-screen-edge bg-200">
+    <div class="mx-auto max-w-page bg-200 px-screen-edge font-base">
       <section>
-        <header class="fixed inset-x-0 max-w-page mx-auto top-0 z-50 px-screen-edge bg-200">
-          <nav                             
-            class="grid grid-flow-col grid-cols-nav gap-x-10 items-center py-4 lg:gap-x-16"
+        <header
+          class="fixed inset-x-0 top-0 z-50 mx-auto max-w-page bg-200 px-screen-edge"
+        >
+          <nav
+            class="grid grid-flow-col grid-cols-nav items-center gap-x-10 py-4 lg:gap-x-16"
             aria-label="Global"
           >
             <div class="flex">
@@ -78,7 +80,7 @@
                 </svg>
               </a>
             </div>
-            <div class="justify-self-end flex lg:hidden">
+            <div class="flex justify-self-end lg:hidden">
               <button
                 data-open-trigger
                 type="button"
@@ -176,36 +178,38 @@
           </div>
         </header>
         <main class="mt-14">
-          <div class="space-y-14 pt-12 sm:pt-16 lg:pt-0 lg:grid lg:grid-cols-2 2lg:grid-cols-content xl:grid-cols-2content lg:space-y-0">
-            <div class="space-y-8 2lg:col-start-2 2lg:col-end-3 lg:self-center">
-              <div class="max-w-prose space-y-6 xs:text-center sm:mx-auto lg:mx-0 lg:text-start lg:max-w-[28.75rem]">
-                <h1
-                 class="font-heading text-4xl text-accent sm:text-5xl"
-                >
+          <div
+            class="space-y-14 pt-12 sm:pt-16 lg:grid lg:grid-cols-2 lg:grid-cols-theme lg:space-y-0 lg:pt-0 4lg:grid-cols-themexl"
+          >
+            <div class="space-y-8 lg:col-start-2 lg:col-end-3 lg:self-center">
+              <div
+                class="max-w-prose space-y-6 xs:text-center sm:mx-auto lg:mx-0 lg:max-w-[28.75rem] lg:text-start"
+              >
+                <h1 class="font-heading text-4xl text-accent sm:text-5xl">
                   Confectionery has always been wound in mistery
                 </h1>
-                <p
-                  class="text-secondary sm:text-lg"
-                >
+                <p class="text-secondary sm:text-lg">
                   Sophisticated typography and prominent photo content will
                   catch the visitors' eyes.
                 </p>
               </div>
               <div class="w-max xs:mx-auto lg:mx-0">
                 <a
-                  class="inline-block text-white bg-300 px-6 py-3 sm:text-lg shadow-sm" 
+                  class="inline-block bg-300 px-6 py-3 text-white shadow-sm sm:text-lg"
                   href="javascript: void(0)"
                   >Subscribe</a
                 >
               </div>
             </div>
-            <div class="lg:w-max lg:justify-self-end 2lg:col-start-3 2lg:col-end-5">
+            <div
+              class="lg:col-start-3 lg:col-end-5 lg:w-max lg:justify-self-end"
+            >
               <img
-                class="w-full h-auto max-w-md mx-auto sm:max-w-lg md:max-w-xl lg:max-w-md 3lg:max-w-lg 4lg:max-w-xl"
+                class="mx-auto h-auto w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-md 2lg:max-w-lg 3lg:max-w-xl"
                 src="/image.jpg"
                 alt=""
                 loading="lazy"
-                decoding="async"                                                                     
+                decoding="async"
               />
             </div>
           </div>

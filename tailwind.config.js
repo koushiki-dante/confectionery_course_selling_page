@@ -19,24 +19,23 @@ export default {
         400: "#900909",
       },
       maxWidth: {
-        page: '1280px'
+        page: "1280px",
       },
       padding: {
-        'screen-edge': '2rem'
+        "screen-edge": "2rem",
       },
       gridTemplateColumns: {
-        'nav': '1fr max-content max-content',
-        'content': '0.1fr 1fr 1fr 0.1fr',
-        '2content': '0.15fr 1fr 1fr 0.15fr',
+        nav: "1fr max-content max-content",
+        theme: "0.0875fr 1fr 1fr 0.0875fr",
+        themexl: "0.15fr 1fr 1fr 0.15fr",
       },
       screens: {
         xs: "480px",
-        "2lg": "1072px",
-        "3lg": "1120px",
-        "4lg": "1200px",
+        "2lg": "1104px",
+        "3lg": "1184px",
+        "4lg": "1248px",
       },
     },
   },
   plugins: [],
-}
-
+};
