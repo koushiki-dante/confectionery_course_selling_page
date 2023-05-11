@@ -29,7 +29,9 @@ export default {
       },
       gridTemplateColumns: {
         nav: "1fr max-content max-content",
-        theme: "0.0625fr 1fr 1fr 0.0625fr",
+        theme: "1fr 528px 1fr",
+        thememd: "1fr 656px 1fr",
+        themelg: "0.0625fr 1fr 1fr 0.0625fr",
         themexl: "0.15fr 1fr 1fr 0.15fr",
       },
       screens: {
