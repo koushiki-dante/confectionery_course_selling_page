@@ -201,16 +201,21 @@
               </div>
             </div>
             <div
-              class="sm:col-start-2 sm:col-end-3 lg:col-start-3 lg:col-end-5 lg:w-max lg:justify-self-end"
+              class="sm:col-start-2 sm:col-end-3 lg:col-start-3 lg:col-end-5 lg:justify-self-end"
             >
-              <img
-                class="mx-auto h-auto w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-md 2lg:max-w-lg 3lg:max-w-xl"
-                src="/image.jpg"
-                alt=""
-                loading="lazy"
-                decoding="async"
-                fetchpriority="low"
-              />
+              <picture>
+                <source srcset="/lg-hero-image.jpg" media="(min-width: 36em)" width="640" height="640">
+                <source srcset="/md-hero-image.jpg" media="(min-width: 28em)" width="576" height="576">
+                <img
+                  class="mx-auto h-auto max-w-full w-full lg:mx-0 lg:ml-auto lg:max-w-[92.5%] 2lg:max-w-[95%]"
+                  src="/sm-hero-image.jpg"
+                  alt=""
+                  width="448"
+                  height="448"
+                  loading="eager"
+                  decoding="sync"
+                />
+              </picture>
             </div>
           </div>
         </main>
@@ -300,15 +305,21 @@
               </p>
             </div>
           </div>
-          <div class="sm:col-start-2 sm:col-end-3">
-            <img
-              class="mx-auto h-auto w-full max-w-sm md:max-w-md lg:mx-0 lg:max-w-[25rem] 2lg:max-w-[27rem]"
-              src="/person.jpg"
-              alt=""
-              loading="lazy"
-              decoding="async"
-              fetchpriority="low"
-            />
+          <div class="sm:col-start-2 sm:col-end-3 lg:justify-self-start">
+            <picture>
+              <source srcset="/md-desktop-owner.jpg" media="(min-width: 69em)" width="464" height="696">
+              <source srcset="/sm-desktop-owner.jpg" media="(min-width: 64em)" width="432" height="648">
+              <source srcset="/md-mobile-owner.jpg" media="(min-width: 30em)" width="640" height="427">
+              <img
+                class="mx-auto h-auto w-full lg:mx-0 lg:max-w-[25rem] 2lg:max-w-[27rem]"
+                src="/sm-mobile-owner.jpg"
+                width="512"
+                height="342"
+                alt=""
+                loading="lazy"
+                decoding="async"
+              />
+            </picture>
           </div>
         </div>
       </section>
